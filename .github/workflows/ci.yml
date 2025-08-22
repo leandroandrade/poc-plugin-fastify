@@ -52,6 +52,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # Token para publicar no npm (opcional, se você quiser publicar pacotes)
           npm-token: ${{ secrets.NPM_TOKEN }}
+          semver: ${{ github.event.inputs.semver }}
           # Configurações opcionais:
           # access: public  # para pacotes npm públicos
           # build-command: npm run build  # se você tiver um comando de build
