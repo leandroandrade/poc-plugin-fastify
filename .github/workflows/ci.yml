@@ -45,7 +45,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci
+      - run: npm i
       - uses: nearform-actions/optic-release-automation-action@v4
         with:
           # Token para criar releases e tags
