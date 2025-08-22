@@ -1,7 +1,7 @@
 {
   "name": "poc-plugin-fastify",
   "version": "1.0.0",
-  "description": "Template repository to create standardized Fastify plugins.",
+  "description": "Sample of fastify plugin using skeleton.",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -20,7 +20,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/leandroandrade/poc-plugin-fastify/issues"
   },
