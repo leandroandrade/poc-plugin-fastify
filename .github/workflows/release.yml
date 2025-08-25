@@ -31,3 +31,11 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           semver: ${{ github.event.inputs.semver }}
           sync-semver-tags: true
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Publish to NPM
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
